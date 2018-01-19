@@ -1,6 +1,6 @@
-package core;
+package data.products;
 
-public class GoodA extends Good {
+public class GoodC extends Good {
     private static double price;
     private static String name;
 
@@ -22,8 +22,8 @@ public class GoodA extends Good {
         name = name_;
     }
 
-    public GoodA() {
-        price = 40.0;
-        name = "Meat";
+    public GoodC() {
+        price = 30.0;
+        name = "Fish";
     }
 }

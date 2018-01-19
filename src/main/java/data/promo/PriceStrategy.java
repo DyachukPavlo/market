@@ -1,6 +1,6 @@
-package core.promo;
+package data.promo;
 
-import core.products.Good;
+import data.products.Good;
 
 public interface PriceStrategy {
     double calcCost(Good good, int quantity);

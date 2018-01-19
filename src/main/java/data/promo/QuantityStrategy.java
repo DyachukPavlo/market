@@ -1,6 +1,6 @@
-package core.promo;
+package data.promo;
 
-import core.products.Good;
+import data.products.Good;
 
 public class QuantityStrategy implements PriceStrategy {
     private int promoQuantity;

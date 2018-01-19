@@ -1,9 +1,9 @@
-package core;
+package data.products;
 
 import java.util.Objects;
 
 public abstract class Good{
-    abstract double getPrice();
+    public abstract double getPrice();
     abstract String getName();
 
 

@@ -1,4 +1,4 @@
-package core;
+package data.products;
 
 public class GoodD extends Good {
     private static double price;
