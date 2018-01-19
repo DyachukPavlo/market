@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 public class CashService {
-    PromoTable promoTable;
+    private PromoTable promoTable;
     public CashService() {
         PriceStrategy strategyA = new QuantityStrategy(70, 3);
         PriceStrategy strategyB = new QuantityStrategy(15, 2);
