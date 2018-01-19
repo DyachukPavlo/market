@@ -1,4 +1,7 @@
-package core;
+package services;
+
+import core.Good;
+import core.PriceStrategy;
 
 public class GoodHolder {
     private int quantity;

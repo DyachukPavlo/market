@@ -1,9 +1,8 @@
 package core;
 
-public class GoodA implements Good {
+public class GoodA extends Good {
     private static double price;
     private static String name;
-
 
     @Override
     public double getPrice() {
@@ -21,5 +20,10 @@ public class GoodA implements Good {
 
     public static void setName(String name_) {
         name = name_;
+    }
+
+    public GoodA() {
+        price = 40.0;
+        name = "Meat";
     }
 }

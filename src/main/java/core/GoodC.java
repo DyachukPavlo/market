@@ -1,9 +1,8 @@
 package core;
 
-public class GoodC implements Good {
+public class GoodC extends Good {
     private static double price;
     private static String name;
-
 
     @Override
     public double getPrice() {
@@ -23,4 +22,8 @@ public class GoodC implements Good {
         name = name_;
     }
 
+    public GoodC() {
+        price = 30.0;
+        name = "Fish";
+    }
 }

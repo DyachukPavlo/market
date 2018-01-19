@@ -6,9 +6,9 @@ public class QuantityStrategy implements PriceStrategy {
 
     @Override
     public double calcCost(Good good, int quantity) {
-        int reminder = quantity%promoQuantity;
-        if(reminder>0){
-            return (quantity - reminder)/promoQuantity*promoPrice + reminder * good.getPrice();
+        int solid = (int)quantity/promoQuantity;
+        if(solid>0){
+            return solid*promoPrice + quantity%promoQuantity * good.getPrice();
         }
         else{
             return quantity * good.getPrice();
