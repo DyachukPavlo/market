@@ -1,4 +1,6 @@
-package core;
+package core.promo;
+
+import core.products.Good;
 
 public class OrdinaryStrategy implements PriceStrategy {
     @Override

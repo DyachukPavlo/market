@@ -1,4 +1,6 @@
-package core;
+package core.promo;
+
+import core.products.Good;
 
 import java.util.HashMap;
 import java.util.Map;
