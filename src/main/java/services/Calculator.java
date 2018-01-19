@@ -1,6 +1,9 @@
 package services;
 
-import core.*;
+import data.products.Good;
+import data.promo.OrdinaryStrategy;
+import data.promo.PriceStrategy;
+import data.promo.PromoTable;
 
 import java.util.List;
 import java.util.Map;

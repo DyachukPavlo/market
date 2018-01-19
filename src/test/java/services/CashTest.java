@@ -1,6 +1,6 @@
 package services;
 
-import core.*;
+import data.products.*;
 import org.junit.Test;
 
 import java.util.Arrays;

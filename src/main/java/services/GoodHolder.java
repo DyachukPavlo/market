@@ -1,7 +1,7 @@
 package services;
 
-import core.Good;
-import core.PriceStrategy;
+import data.products.Good;
+import data.promo.PriceStrategy;
 
 public class GoodHolder {
     private int quantity;

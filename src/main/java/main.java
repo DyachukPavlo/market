@@ -1,5 +1,5 @@
-package core;
-
+import data.products.*;
+import data.products.GoodA;
 import services.CashService;
 
 import java.util.Arrays;
